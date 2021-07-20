@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Jul 10 23:51:16 2021
+# Process ID: 8876
+# Current directory: V:/cpu/Minisys-1_2-10.30
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16592 V:\cpu\Minisys-1_2-10.30\Minisys-1_2.xpr
+# Log file: V:/cpu/Minisys-1_2-10.30/vivado.log
+# Journal file: V:/cpu/Minisys-1_2-10.30\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/cpu/Minisys-1_2-10.30/Minisys-1_2.xpr
+launch_simulation
+source minisys_sim.tcl
+update_compile_order -fileset sources_1
+restart
+run 200 us
+close_sim
+close_project
+open_project V:/cpu/Minisys-1_2-10.30/Minisys-1_2.xpr
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.Coe_File {V:/cpu/software/leds_change/prgmip32.coe}] [get_ips prgrom]
+set_property -dict [list CONFIG.Coe_File {V:/cpu/software/leds_change/dmem32.coe}] [get_ips ram]
+launch_simulation
+source minisys_sim.tcl
+restart
+run 200 us
+run all
+restart
+run 200 us
+run 200 us
+close_sim

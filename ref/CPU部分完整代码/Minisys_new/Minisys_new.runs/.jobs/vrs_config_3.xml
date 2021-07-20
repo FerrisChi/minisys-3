@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="program_synth_1" LaunchDir="E:/SEU/&#xD1;&#xA7;&#xCA;&#xF5;/&#xB4;&#xF3;&#xCB;&#xC4;/&#xD7;&#xDB;&#xBA;&#xCF;&#xC9;&#xE8;&#xBC;&#xC6;/&#xB0;&#xBC;~/Minisys_new/Minisys_new.runs/program_synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ram_synth_1" LaunchDir="E:/SEU/&#xD1;&#xA7;&#xCA;&#xF5;/&#xB4;&#xF3;&#xCB;&#xC4;/&#xD7;&#xDB;&#xBA;&#xCF;&#xC9;&#xE8;&#xBC;&#xC6;/&#xB0;&#xBC;~/Minisys_new/Minisys_new.runs/ram_synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/SEU/&#xD1;&#xA7;&#xCA;&#xF5;/&#xB4;&#xF3;&#xCB;&#xC4;/&#xD7;&#xDB;&#xBA;&#xCF;&#xC9;&#xE8;&#xBC;&#xC6;/&#xB0;&#xBC;~/Minisys_new/Minisys_new.runs/synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="program_synth_1"/>
+		<Parent Id="ram_synth_1"/>
+	</Run>
+</Runs>
+

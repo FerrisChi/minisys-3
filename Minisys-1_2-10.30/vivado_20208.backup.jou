@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Jul 10 23:46:02 2021
+# Process ID: 20208
+# Current directory: V:/cpu/Minisys-1_2-10.30
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7960 V:\cpu\Minisys-1_2-10.30\Minisys-1_2.xpr
+# Log file: V:/cpu/Minisys-1_2-10.30/vivado.log
+# Journal file: V:/cpu/Minisys-1_2-10.30\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/cpu/Minisys-1_2-10.30/Minisys-1_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation

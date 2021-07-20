@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="program_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1420874627">
+  <File Type="RDS-UTIL" Name="program_utilization_synth.rpt"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/program_synth_1/program_synth_1.psg"/>
+  <File Type="RDS-UTIL-PB" Name="program_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="program.dcp"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/program_synth_1/constrs_in.xml"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="program_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="program_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="program.tcl"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/program_synth_1/sources.xml"/>
+  <File Type="RDS-RDS" Name="program.rds"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/program">
+    <File Path="$PSRCDIR/sources_1/ip/program/program.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="program"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/program">
+    <File Path="$PSRCDIR/sources_1/ip/program/program.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="program"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2013">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

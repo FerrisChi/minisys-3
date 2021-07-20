@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jul  9 14:19:43 2021
+# Process ID: 9048
+# Current directory: V:/cpu/Minisys-1_2-multicycleUnc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16988 V:\cpu\Minisys-1_2-multicycleUnc\Minisys-1_2.xpr
+# Log file: V:/cpu/Minisys-1_2-multicycleUnc/vivado.log
+# Journal file: V:/cpu/Minisys-1_2-multicycleUnc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/cpu/Minisys-1_2-multicycleUnc/Minisys-1_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source minisys_sim.tcl
+restart
+run 1 ms
+restart
+run 1 ms
+restart
+run 1 ms
+set_property -dict [list CONFIG.Coe_File {v:/cpu/software/TEST1/dmem32.coe}] [get_ips ram]
+restart
+run 200 us
+restart
+run 200 us
+relaunch_sim
+restart
+run 200 us
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {V:/cpu/Minisys-1_2-multicycleUnc/Minisys-1_2.runs/impl_1/minisys.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {V:/cpu/Minisys-1_2-multicycleUnc/Minisys-1_2.runs/impl_1/minisys.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {V:/cpu/Minisys-1_2-multicycleUnc/Minisys-1_2.runs/impl_1/minisys.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_sim

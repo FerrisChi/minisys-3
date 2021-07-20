@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Mon Jan 05 16:20:46 2015
+# Process ID: 3000
+# Log file: C:/Users/hthink/Desktop/Minisys_new/vivado.log
+# Journal file: C:/Users/hthink/Desktop/Minisys_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\hthink\Desktop\Minisys_new\Minisys_new.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

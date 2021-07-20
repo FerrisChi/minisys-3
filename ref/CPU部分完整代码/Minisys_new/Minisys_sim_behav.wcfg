@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Minisys_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Minisys_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="82" />
+   <wvobject fp_name="/Minisys_sim/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/int0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">int0</obj_property>
+      <obj_property name="ObjectShortName">int0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/int1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">int1</obj_property>
+      <obj_property name="ObjectShortName">int1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/col" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">col[3:0]</obj_property>
+      <obj_property name="ObjectShortName">col[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/instruction_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/line" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">line[3:0]</obj_property>
+      <obj_property name="ObjectShortName">line[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/prst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">prst</obj_property>
+      <obj_property name="ObjectShortName">prst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/PC_plus_4_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_plus_4_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_plus_4_out[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/PC_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/opcplus4_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcplus4_out[16:0]</obj_property>
+      <obj_property name="ObjectShortName">opcplus4_out[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Jrn_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Jrn_out</obj_property>
+      <obj_property name="ObjectShortName">Jrn_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/RegDST_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegDST_out</obj_property>
+      <obj_property name="ObjectShortName">RegDST_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/ALUSrc_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUSrc_out</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/MemtoReg_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemtoReg_out</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Lw_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Lw_out</obj_property>
+      <obj_property name="ObjectShortName">Lw_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Lb_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Lb_out</obj_property>
+      <obj_property name="ObjectShortName">Lb_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Lbu_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Lbu_out</obj_property>
+      <obj_property name="ObjectShortName">Lbu_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Lh_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Lh_out</obj_property>
+      <obj_property name="ObjectShortName">Lh_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Lhu_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Lhu_out</obj_property>
+      <obj_property name="ObjectShortName">Lhu_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/MemWrite_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWrite_out</obj_property>
+      <obj_property name="ObjectShortName">MemWrite_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Sw_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Sw_out</obj_property>
+      <obj_property name="ObjectShortName">Sw_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Sb_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Sb_out</obj_property>
+      <obj_property name="ObjectShortName">Sb_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Sh_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Sh_out</obj_property>
+      <obj_property name="ObjectShortName">Sh_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/RegWrite_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite_out</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Branch_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Branch_out</obj_property>
+      <obj_property name="ObjectShortName">Branch_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/nBranch_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nBranch_out</obj_property>
+      <obj_property name="ObjectShortName">nBranch_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/bgez_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bgez_out</obj_property>
+      <obj_property name="ObjectShortName">bgez_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/bgtz_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bgtz_out</obj_property>
+      <obj_property name="ObjectShortName">bgtz_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/blez_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">blez_out</obj_property>
+      <obj_property name="ObjectShortName">blez_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/bltz_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bltz_out</obj_property>
+      <obj_property name="ObjectShortName">bltz_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/bgezal_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bgezal_out</obj_property>
+      <obj_property name="ObjectShortName">bgezal_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/bltzal_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bltzal_out</obj_property>
+      <obj_property name="ObjectShortName">bltzal_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Jmp_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Jmp_out</obj_property>
+      <obj_property name="ObjectShortName">Jmp_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Jal_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Jal_out</obj_property>
+      <obj_property name="ObjectShortName">Jal_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Jalr_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Jalr_out</obj_property>
+      <obj_property name="ObjectShortName">Jalr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Sftmd_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Sftmd_out</obj_property>
+      <obj_property name="ObjectShortName">Sftmd_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/MD_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MD_out</obj_property>
+      <obj_property name="ObjectShortName">MD_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Mult_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Mult_out</obj_property>
+      <obj_property name="ObjectShortName">Mult_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Multu_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Multu_out</obj_property>
+      <obj_property name="ObjectShortName">Multu_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Div_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Div_out</obj_property>
+      <obj_property name="ObjectShortName">Div_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Divu_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Divu_out</obj_property>
+      <obj_property name="ObjectShortName">Divu_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/I_format_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">I_format_out</obj_property>
+      <obj_property name="ObjectShortName">I_format_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/ALUOp_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUOp_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp_out[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Mfhi_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Mfhi_out</obj_property>
+      <obj_property name="ObjectShortName">Mfhi_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Mflo_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Mflo_out</obj_property>
+      <obj_property name="ObjectShortName">Mflo_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Mthi_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Mthi_out</obj_property>
+      <obj_property name="ObjectShortName">Mthi_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Mtlo_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Mtlo_out</obj_property>
+      <obj_property name="ObjectShortName">Mtlo_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/break1_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">break1_out</obj_property>
+      <obj_property name="ObjectShortName">break1_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/syscall_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">syscall_out</obj_property>
+      <obj_property name="ObjectShortName">syscall_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/eret_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">eret_out</obj_property>
+      <obj_property name="ObjectShortName">eret_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Mfc0_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Mfc0_out</obj_property>
+      <obj_property name="ObjectShortName">Mfc0_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Mtc0_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Mtc0_out</obj_property>
+      <obj_property name="ObjectShortName">Mtc0_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/MemorIOtoReg_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemorIOtoReg_out</obj_property>
+      <obj_property name="ObjectShortName">MemorIOtoReg_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/IOWrite_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IOWrite_out</obj_property>
+      <obj_property name="ObjectShortName">IOWrite_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/IORead_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IORead_out</obj_property>
+      <obj_property name="ObjectShortName">IORead_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/read_data_1_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_1_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_1_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/read_data_2_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_2_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_2_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Sign_extend_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Sign_extend_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Sign_extend_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/read_data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/write_data_out_idcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_data_out_idcode[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data_out_idcode[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/write_register_address_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">write_register_address_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_register_address_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/ALU_result_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_result_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/ALU_result_HI_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_result_HI_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_HI_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/ALU_result_LO_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ALU_result_LO_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_LO_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/Zero_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Zero_out</obj_property>
+      <obj_property name="ObjectShortName">Zero_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/EtZero_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EtZero_out</obj_property>
+      <obj_property name="ObjectShortName">EtZero_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/GtZero_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GtZero_out</obj_property>
+      <obj_property name="ObjectShortName">GtZero_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/LtZero_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LtZero_out</obj_property>
+      <obj_property name="ObjectShortName">LtZero_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/ioread_data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ioread_data_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ioread_data_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/ioread_data_key_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ioread_data_key_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ioread_data_key_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/ioread_data_ctc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ioread_data_ctc_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ioread_data_ctc_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/ioread_data_uart_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ioread_data_uart_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ioread_data_uart_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/led0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led0[6:0]</obj_property>
+      <obj_property name="ObjectShortName">led0[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/led1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">led1[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/led2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led2[6:0]</obj_property>
+      <obj_property name="ObjectShortName">led2[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/led3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led3[6:0]</obj_property>
+      <obj_property name="ObjectShortName">led3[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/pwm" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pwm</obj_property>
+      <obj_property name="ObjectShortName">pwm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/xtal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">xtal</obj_property>
+      <obj_property name="ObjectShortName">xtal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/rxd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxd</obj_property>
+      <obj_property name="ObjectShortName">rxd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txd</obj_property>
+      <obj_property name="ObjectShortName">txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Minisys_sim/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+</wave_config>

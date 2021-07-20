@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jul  9 09:25:15 2021
+# Process ID: 5900
+# Current directory: V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1
+# Command line: vivado.exe -log minisys.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source minisys.tcl -notrace
+# Log file: V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/minisys.vdi
+# Journal file: V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source minisys.tcl -notrace

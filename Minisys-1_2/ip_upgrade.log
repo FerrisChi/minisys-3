@@ -1,0 +1,58 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jul  7 22:25:45 2021
+| Host         : DESKTOP-7TT00KH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tfgg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ram'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ram (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jul  7 22:25:43 2021
+| Host         : DESKTOP-7TT00KH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tfgg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'prgrom'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of prgrom (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Wed Jul  7 22:25:42 2021
+| Host         : DESKTOP-7TT00KH running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tfgg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'cpuclk'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of cpuclk (xilinx.com:ip:clk_wiz:6.0 (Rev. 8)) to Vivado generation flows.
+

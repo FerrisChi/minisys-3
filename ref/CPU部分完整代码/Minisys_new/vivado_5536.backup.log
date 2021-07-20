@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Mon Jan 05 16:20:46 2015
+# Process ID: 3000
+# Log file: C:/Users/hthink/Desktop/Minisys_new/vivado.log
+# Journal file: C:/Users/hthink/Desktop/Minisys_new\vivado.jou
+#-----------------------------------------------------------
+Attempting to get a license: Implementation
+Feature available: Implementation
+Loading parts and site information from E:/Xilinx/Vivado/2013.4/data/parts/arch.xml
+Parsing RTL primitives file [E:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+open_project {C:\Users\hthink\Desktop\Minisys_new\Minisys_new.xpr}
+INFO: [Project 1-313] Project file moved from 'F:/Xilinx/Vivado_Workspace/Minisys_new' since last save.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/new/memori.v: Could not find the file 'C:/Users/Live/Desktop/Minisys/Minisys.srcs/sources_1/new/memori.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/new/ioread.v: Could not find the file 'C:/Users/Live/Desktop/Minisys/Minisys.srcs/sources_1/new/ioread.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/Minisys_new/Ifect32.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/Ifect32.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/Ifect32.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/Minisys_new/Idecode32.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/Idecode32.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/Idecode32.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/Minisys_new/Execute32.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/Execute32.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/Execute32.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/Minisys_new/dmemory32.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/dmemory32.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/dmemory32.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/Minisys_new/control32.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/control32.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/control32.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/Minisys_new/minisys.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/minisys.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/minisys.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/new/wtd16.v: Could not find the file 'C:/Users/Live/Desktop/Minisys/Minisys.srcs/sources_1/new/wtd16.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/new/UART16.v: Could not find the file 'C:/Users/Live/Desktop/Minisys/Minisys.srcs/sources_1/new/UART16.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/new/pmw16.v: Could not find the file 'C:/Users/Live/Desktop/Minisys/Minisys.srcs/sources_1/new/pmw16.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/new/led16.v: Could not find the file 'C:/Users/Live/Desktop/Minisys/Minisys.srcs/sources_1/new/led16.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/new/key16.v: Could not find the file 'C:/Users/Live/Desktop/Minisys/Minisys.srcs/sources_1/new/key16.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/new/init32.v: Could not find the file 'C:/Users/Live/Desktop/Minisys/Minisys.srcs/sources_1/new/init32.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sources_1/imports/new/ctc16.v: Could not find the file 'C:/Users/Live/Desktop/Minisys/Minisys.srcs/sources_1/new/ctc16.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sim_1/imports/Minisys_new/IFect32_sim.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/IFect32_sim.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/IFect32_sim.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sim_1/imports/Minisys_new/Idecode32_sim.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/Idecode32_sim.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/Idecode32_sim.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sim_1/imports/Minisys_new/execute32_sim.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/execute32_sim.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/execute32_sim.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sim_1/imports/Minisys_new/dememory32_sim.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/dememory32_sim.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/dememory32_sim.v'.
+Import path for source C:/Users/hthink/Desktop/Minisys_new/Minisys_new.srcs/sim_1/imports/Minisys_new/control32_sim.v: Could not find the file 'C:/Users/hthink/Desktop/Minisys_new/control32_sim.v', nor could it be found using path 'F:/Xilinx/Vivado_Workspace/Minisys_new/control32_sim.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2013.4/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:12 . Memory (MB): peak = 896.492 ; gain = 64.582
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 05 16:21:36 2015...

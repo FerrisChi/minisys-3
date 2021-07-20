@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Jul 12 00:06:34 2021
+# Process ID: 18036
+# Current directory: V:/cpu/Minisys-1_2-10.30
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11124 V:\cpu\Minisys-1_2-10.30\Minisys-1_2.xpr
+# Log file: V:/cpu/Minisys-1_2-10.30/vivado.log
+# Journal file: V:/cpu/Minisys-1_2-10.30\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/cpu/Minisys-1_2-10.30/Minisys-1_2.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ram_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source ram_sim.tcl
+close_sim

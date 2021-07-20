@@ -1,0 +1,25 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.gen/sources_1/ip/uart_bmpg_0/sim/uart_bmpg_0.v,1625666692,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.ip_user_files/ip/cpuclk/cpuclk_clk_wiz.v,,uart_bmpg_0,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.gen/sources_1/ip/uart_bmpg_0/uart_bmpg.v,1625666692,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.gen/sources_1/ip/uart_bmpg_0/upg.v,,uart_bmpg,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.gen/sources_1/ip/uart_bmpg_0/upg.v,1625666692,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.gen/sources_1/ip/uart_bmpg_0/sim/uart_bmpg_0.v,,upg,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.ip_user_files/ip/cpuclk/cpuclk.v,1625668192,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/control32.v,,cpuclk,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.ip_user_files/ip/cpuclk/cpuclk_clk_wiz.v,1625668192,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.ip_user_files/ip/cpuclk/cpuclk.v,,cpuclk_clk_wiz,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.ip_user_files/ip/prgrom/sim/prgrom.v,1625762320,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.gen/sources_1/ip/uart_bmpg_0/uart_bmpg.v,,prgrom,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.ip_user_files/ip/ram/sim/ram.v,1625762358,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/dmemory32.v,,ram,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.sim/sim_1/behav/xsim/glbl.v,1623370582,verilog,,,,glbl,,,,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sim_1/imports/sim/minisys_sim.v,1625735755,verilog,,,,minisys_sim,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sim_1/imports/sim/ram_sim.v,1532536017,verilog,,,,ram_sim,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/control32.v,1625762716,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/dmemory32.v,,control32,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/dmemory32.v,1532545943,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sim_1/imports/sim/ram_sim.v,,dmemory32,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/executs32.v,1625665886,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/idecode32.v,,Executs32,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/idecode32.v,1625665125,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/ifetc32.v,,Idecode32,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/ifetc32.v,1625716294,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/ioread.v,,Ifetc32,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/ioread.v,1531900918,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/leds.v,,ioread,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/leds.v,1625745109,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/memorio.v,,leds,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/memorio.v,1531901077,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/minisys.v,,memorio,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/minisys.v,1625794716,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/programrom.v,,minisys,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/programrom.v,1625670176,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/switchs.v,,programrom,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,
+V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/imports/minisys/switchs.v,1625793599,verilog,,V:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sim_1/imports/sim/minisys_sim.v,,switchs,,,../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk,,,,,

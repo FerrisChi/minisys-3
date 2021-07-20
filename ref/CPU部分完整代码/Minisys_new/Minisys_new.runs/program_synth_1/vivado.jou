@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Sat Jan 10 15:23:51 2015
+# Process ID: 1136
+# Log file: D:/512/Minisys_new/Minisys_new.runs/program_synth_1/program.rds
+# Journal file: D:/512/Minisys_new/Minisys_new.runs/program_synth_1\vivado.jou
+#-----------------------------------------------------------
+source program.tcl

@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "blk_mem_gen_v8_1" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Minisys_new_sim_behav" --prj "D:/512/Minisys_new/Minisys_new.sim/sim_1/behav/Minisys_new_sim.prj" "work.Minisys_new_sim" "work.glbl" 

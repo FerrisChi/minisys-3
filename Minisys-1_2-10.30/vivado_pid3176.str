@@ -1,0 +1,152 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 3176
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Jul 10 23:46:16 CST 2021
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	chiji
+User home directory: C:/Users/chiji
+User working directory: V:/cpu/Minisys-1_2-10.30
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2021.1
+RDI_DATADIR: C:/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/chiji/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/chiji/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/chiji/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	V:/cpu/Minisys-1_2-10.30/vivado.log
+Vivado journal file: 	V:/cpu/Minisys-1_2-10.30/vivado.jou
+Engine tmp dir: 	V:/cpu/Minisys-1_2-10.30/.Xil/Vivado-3176-FCXiaoXin
+
+Xilinx Environment Variables
+----------------------------
+DART_SDK: C:\Program Files\Dart\dart-sdk
+XILINX: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,151 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: V:\cpu\Minisys-1_2-10.30\Minisys-1_2.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project V:/cpu/Minisys-1_2-10.30/Minisys-1_2.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,151 MB. GUI used memory: 59 MB. Current time: 7/10/21, 11:46:17 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 78 MB (+79556kb) [00:00:15]
+// [Engine Memory]: 1,151 MB (+1055021kb) [00:00:15]
+// [GUI Memory]: 86 MB (+3672kb) [00:00:15]
+// [GUI Memory]: 98 MB (+8549kb) [00:00:19]
+// [GUI Memory]: 116 MB (+13120kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  10868 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1620 ms.
+// Tcl Message: open_project V:/cpu/Minisys-1_2-10.30/Minisys-1_2.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'V:/cpu/Minisys-1_2' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/ip/SEU_CSE_507_user_uart_bmpg_1.3'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'. 
+// WARNING: HEventQueue.dispatchEvent() is taking  2234 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1132 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:29 ; elapsed = 00:00:16 . Memory (MB): peak = 1135.102 ; gain = 0.000 
+// Project name: Minisys-1_2; location: V:/cpu/Minisys-1_2-10.30; part: xc7a100tfgg484-1
+dismissDialog("Open Project"); // bz
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 123 MB (+1919kb) [00:00:31]
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 644ms to process. Increasing delay to 3000 ms.
+// TclEventType: DG_GRAPH_STALE
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 136 MB (+7369kb) [00:00:38]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 53 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // o
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // an
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'minisys_sim' INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator... INFO: [Vivado 12-5682] Launching behavioral simulation in 'V:/cpu/Minisys-1_2-10.30/Minisys-1_2.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,151 MB. GUI used memory: 85 MB. Current time: 7/10/21, 11:47:58 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,151 MB. GUI used memory: 85 MB. Current time: 7/10/21, 11:48:29 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,151 MB. GUI used memory: 85 MB. Current time: 7/10/21, 11:48:59 PM CST
+// Elapsed time: 112 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 

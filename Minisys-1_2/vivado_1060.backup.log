@@ -1,0 +1,248 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Jul 10 21:32:58 2021
+# Process ID: 1060
+# Current directory: V:/cpu/Minisys-1_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12192 V:\cpu\Minisys-1_2\Minisys-1_2.xpr
+# Log file: V:/cpu/Minisys-1_2/vivado.log
+# Journal file: V:/cpu/Minisys-1_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/cpu/Minisys-1_2/Minisys-1_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/SEU_CSE_507_user_uart_bmpg_1.3'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:11 . Memory (MB): peak = 1137.879 ; gain = 0.000
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2021.1
+  **** Build date : Jun 10 2021 at 20:17:23
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2021.1
+  ****** Build date   : May 27 2021-01:32:33
+    **** Build number : 2021.1.1622050353
+      ** Copyright 2017-2021 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1137.879 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 2729.402 ; gain = 1591.523
+set_property PROGRAM.FILE {V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/minisys.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/minisys.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Jul 10 21:41:09 2021] Launched impl_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/minisys.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7a100tfgg484-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 3095.824 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 335 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'cpuclk/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.234 . Memory (MB): peak = 3798.883 ; gain = 0.000
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 3798.883 ; gain = 997.969
+INFO: [Common 17-344] 'open_run' was cancelled
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory V:/cpu/Minisys-1_2/Minisys-1_2.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Sat Jul 10 22:06:28 2021] Launched synth_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sat Jul 10 22:08:58 2021] Launched impl_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Jul 10 22:13:54 2021] Launched impl_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/minisys.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'v:/cpu/software/FIB/prgmip32.coe' provided. It will be converted relative to IP Instance files '../../../../../software/FIB/prgmip32.coe'
+set_property -dict [list CONFIG.Coe_File {V:/cpu/software/FIB/prgmip32.coe}] [get_ips prgrom]
+INFO: [IP_Flow 19-3484] Absolute path of file 'v:/cpu/software/FIB/prgmip32.coe' provided. It will be converted relative to IP Instance files '../../../../../software/FIB/prgmip32.coe'
+generate_target all [get_files  V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/prgrom/prgrom.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'prgrom'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'prgrom'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'prgrom'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'prgrom'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'prgrom'...
+catch { config_ip_cache -export [get_ips -all prgrom] }
+export_ip_user_files -of_objects [get_files V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/prgrom/prgrom.xci] -no_script -sync -force -quiet
+reset_run prgrom_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory V:/cpu/Minisys-1_2/Minisys-1_2.runs/prgrom_synth_1
+
+launch_runs prgrom_synth_1 -jobs 4
+[Sat Jul 10 22:21:14 2021] Launched prgrom_synth_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/prgrom_synth_1/runme.log
+export_simulation -of_objects [get_files V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/prgrom/prgrom.xci] -directory V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files/sim_scripts -ip_user_files_dir V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files -ipstatic_source_dir V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/modelsim} {questa=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/questa} {riviera=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/riviera} {activehdl=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'v:/cpu/software/FIB/dmem32.coe' provided. It will be converted relative to IP Instance files '../../../../../software/FIB/dmem32.coe'
+set_property -dict [list CONFIG.Coe_File {V:/cpu/software/FIB/dmem32.coe}] [get_ips ram]
+INFO: [IP_Flow 19-3484] Absolute path of file 'v:/cpu/software/FIB/dmem32.coe' provided. It will be converted relative to IP Instance files '../../../../../software/FIB/dmem32.coe'
+generate_target all [get_files  V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/ram/ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ram'...
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3798.883 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all ram] }
+export_ip_user_files -of_objects [get_files V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/ram/ram.xci] -no_script -sync -force -quiet
+reset_run ram_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory V:/cpu/Minisys-1_2/Minisys-1_2.runs/ram_synth_1
+
+launch_runs ram_synth_1 -jobs 4
+[Sat Jul 10 22:22:00 2021] Launched ram_synth_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/ram_synth_1/runme.log
+export_simulation -of_objects [get_files V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/ram/ram.xci] -directory V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files/sim_scripts -ip_user_files_dir V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files -ipstatic_source_dir V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/modelsim} {questa=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/questa} {riviera=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/riviera} {activehdl=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory V:/cpu/Minisys-1_2/Minisys-1_2.runs/synth_1
+
+launch_runs impl_1 -jobs 4
+[Sat Jul 10 22:22:39 2021] Launched prgrom_synth_1, ram_synth_1, synth_1...
+Run output will be captured here:
+prgrom_synth_1: V:/cpu/Minisys-1_2/Minisys-1_2.runs/prgrom_synth_1/runme.log
+ram_synth_1: V:/cpu/Minisys-1_2/Minisys-1_2.runs/ram_synth_1/runme.log
+synth_1: V:/cpu/Minisys-1_2/Minisys-1_2.runs/synth_1/runme.log
+[Sat Jul 10 22:22:40 2021] Launched impl_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Jul 10 22:29:35 2021] Launched impl_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/minisys.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'v:/cpu/software/ADD/prgmip32.coe' provided. It will be converted relative to IP Instance files '../../../../../software/ADD/prgmip32.coe'
+set_property -dict [list CONFIG.Coe_File {V:/cpu/software/ADD/prgmip32.coe}] [get_ips prgrom]
+INFO: [IP_Flow 19-3484] Absolute path of file 'v:/cpu/software/ADD/prgmip32.coe' provided. It will be converted relative to IP Instance files '../../../../../software/ADD/prgmip32.coe'
+generate_target all [get_files  V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/prgrom/prgrom.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'prgrom'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'prgrom'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'prgrom'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'prgrom'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'prgrom'...
+catch { config_ip_cache -export [get_ips -all prgrom] }
+export_ip_user_files -of_objects [get_files V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/prgrom/prgrom.xci] -no_script -sync -force -quiet
+reset_run prgrom_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory V:/cpu/Minisys-1_2/Minisys-1_2.runs/prgrom_synth_1
+
+launch_runs prgrom_synth_1 -jobs 4
+[Sat Jul 10 22:32:33 2021] Launched prgrom_synth_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/prgrom_synth_1/runme.log
+export_simulation -of_objects [get_files V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/prgrom/prgrom.xci] -directory V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files/sim_scripts -ip_user_files_dir V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files -ipstatic_source_dir V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/modelsim} {questa=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/questa} {riviera=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/riviera} {activehdl=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'v:/cpu/software/ADD/dmem32.coe' provided. It will be converted relative to IP Instance files '../../../../../software/ADD/dmem32.coe'
+set_property -dict [list CONFIG.Coe_File {V:/cpu/software/ADD/dmem32.coe}] [get_ips ram]
+INFO: [IP_Flow 19-3484] Absolute path of file 'v:/cpu/software/ADD/dmem32.coe' provided. It will be converted relative to IP Instance files '../../../../../software/ADD/dmem32.coe'
+generate_target all [get_files  V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/ram/ram.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ram'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ram'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ram'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'ram'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ram'...
+catch { config_ip_cache -export [get_ips -all ram] }
+export_ip_user_files -of_objects [get_files V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/ram/ram.xci] -no_script -sync -force -quiet
+reset_run ram_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory V:/cpu/Minisys-1_2/Minisys-1_2.runs/ram_synth_1
+
+launch_runs ram_synth_1 -jobs 4
+[Sat Jul 10 22:33:19 2021] Launched ram_synth_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/ram_synth_1/runme.log
+export_simulation -of_objects [get_files V:/cpu/Minisys-1_2/Minisys-1_2.srcs/sources_1/ip/ram/ram.xci] -directory V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files/sim_scripts -ip_user_files_dir V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files -ipstatic_source_dir V:/cpu/Minisys-1_2/Minisys-1_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/modelsim} {questa=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/questa} {riviera=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/riviera} {activehdl=V:/cpu/Minisys-1_2/Minisys-1_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory V:/cpu/Minisys-1_2/Minisys-1_2.runs/synth_1
+
+launch_runs impl_1 -jobs 4
+[Sat Jul 10 22:33:46 2021] Launched prgrom_synth_1, ram_synth_1, synth_1...
+Run output will be captured here:
+prgrom_synth_1: V:/cpu/Minisys-1_2/Minisys-1_2.runs/prgrom_synth_1/runme.log
+ram_synth_1: V:/cpu/Minisys-1_2/Minisys-1_2.runs/ram_synth_1/runme.log
+synth_1: V:/cpu/Minisys-1_2/Minisys-1_2.runs/synth_1/runme.log
+[Sat Jul 10 22:33:46 2021] Launched impl_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat Jul 10 22:41:12 2021] Launched impl_1...
+Run output will be captured here: V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {V:/cpu/Minisys-1_2/Minisys-1_2.runs/impl_1/minisys.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 10 22:44:08 2021...

@@ -1,0 +1,5 @@
+Running: xsim.dir/Minisys_new_sim_behav/xsimk.exe -simmode gui -wdb Minisys_new_sim_behav.wdb -simrunnum 0 -socket 1119
+Design successfully loaded
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation CPU Usage: 5210 ms

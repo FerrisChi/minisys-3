@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat Jul 10 23:46:02 2021
+# Process ID: 20208
+# Current directory: V:/cpu/Minisys-1_2-10.30
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7960 V:\cpu\Minisys-1_2-10.30\Minisys-1_2.xpr
+# Log file: V:/cpu/Minisys-1_2-10.30/vivado.log
+# Journal file: V:/cpu/Minisys-1_2-10.30\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/cpu/Minisys-1_2-10.30/Minisys-1_2.xpr
+INFO: [Project 1-313] Project file moved from 'V:/cpu/Minisys-1_2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'v:/cpu/Minisys-1_2-10.30/Minisys-1_2.srcs/sources_1/ip/SEU_CSE_507_user_uart_bmpg_1.3'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:14 . Memory (MB): peak = 1136.152 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'minisys_sim'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'V:/cpu/Minisys-1_2-10.30/Minisys-1_2.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.

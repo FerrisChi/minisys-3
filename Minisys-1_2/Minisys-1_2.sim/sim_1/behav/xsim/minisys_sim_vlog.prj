@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Minisys-1_2.srcs/sources_1/ip/cpuclk" \
+"../../../../Minisys-1_2.ip_user_files/ip/ram/sim/ram.v" \
+"../../../../Minisys-1_2.ip_user_files/ip/prgrom/sim/prgrom.v" \
+"../../../../Minisys-1_2.gen/sources_1/ip/uart_bmpg_0/uart_bmpg.v" \
+"../../../../Minisys-1_2.gen/sources_1/ip/uart_bmpg_0/upg.v" \
+"../../../../Minisys-1_2.gen/sources_1/ip/uart_bmpg_0/sim/uart_bmpg_0.v" \
+"../../../../Minisys-1_2.ip_user_files/ip/cpuclk/cpuclk_clk_wiz.v" \
+"../../../../Minisys-1_2.ip_user_files/ip/cpuclk/cpuclk.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/control32.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/dmemory32.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/executs32.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/idecode32.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/ifetc32.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/ioread.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/leds.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/memorio.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/minisys.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/programrom.v" \
+"../../../../Minisys-1_2.srcs/sources_1/imports/minisys/switchs.v" \
+"../../../../Minisys-1_2.srcs/sim_1/imports/sim/minisys_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
